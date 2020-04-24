@@ -26,7 +26,7 @@ SECRET_KEY = 'x*i@sbdk03er#$urojyz7$&vepb10xw4--wlzm$ip8q)08e2x0'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+DEFAULT_PORT = "8888"
 
 # Application definition
 

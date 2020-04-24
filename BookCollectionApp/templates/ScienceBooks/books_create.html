@@ -7,6 +7,7 @@
             {% csrf_token %}
             <table class=>
                 {{ form.as_table }} <!-- this only renders the td tags, still need the table tags -->
+        
             </table>
             {{ form.non_field_errors }}
             <br/>
